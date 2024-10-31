@@ -1,0 +1,21 @@
+{
+  "name": "@camunda8/sdk-esm",
+  "tasks": {
+    "dev": "deno run --watch main.ts",
+    "write-package-version": "deno run -A ../../write-package-version.ts"
+  },
+  "exports": "./main.ts",
+  "imports": {
+    "@std/assert": "jsr:@std/assert@1",
+    "@std/encoding": "jsr:@std/encoding@^1.0.5",
+    "@std/expect": "jsr:@std/expect@^1.0.6",
+    "debug": "npm:debug@^4.3.7",
+    "eventemitter3": "npm:eventemitter3@^5.0.1",
+    "jwt-decode": "npm:jwt-decode@^4.0.0",
+    "ky": "npm:ky@^1.7.2",
+    "lossless-json": "npm:lossless-json@^4.0.2",
+    "neon-env": "npm:neon-env@^0.2.2",
+    "reflect-metadata": "npm:reflect-metadata@^0.2.2",
+    "yup": "npm:yup@^1.4.0"
+  }
+}

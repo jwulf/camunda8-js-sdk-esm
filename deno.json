@@ -1,0 +1,10 @@
+{
+    "workspace": ["./sdk-esm", "./c8cli"],
+    "compilerOptions": {
+      "strictNullChecks": true,
+      "strictFunctionTypes": false
+    },
+    "fmt": {
+      "useTabs": true
+    }
+  }
